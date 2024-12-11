@@ -23,6 +23,7 @@
             (writeShellScriptBin "rust-doc" ''
   xdg-open '${my-rust}/share/doc/rust/html/index.html'
 '')
+            gdb
           ];
 
         };
